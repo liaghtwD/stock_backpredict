@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data files
+stock_data/
+*.xlsx
+*.xls
+
+# Model files (exclude all trained models)
+*.pth
+*.pkl
+model_long_term/__pycache__/
+model_short/__pycache__/
+lr_models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+temp_*
+
+# Large CSV files
+*.csv
